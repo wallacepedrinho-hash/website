@@ -1,7 +1,7 @@
 console.log("ATIVIDADE DE PROGRAMAÇÃO WEB - JAVASCRPT")
 
 
-// //
+// Inicio do site - acesso //
 const form = document.getElementById('formCadastro');
 const nome = document.getElementById('nome');
 const email = document.getElementById('email');
@@ -25,12 +25,7 @@ form.addEventListener('submit', function (event) {
 });
 
 
-
-
-
-
-
-// variável e uma função
+// variável e uma função (Teste execução no JS)
 const fullName = "Wallace Almeida";
 
 console.log(fullName.length)  // Propriedade de quantidade de caracteres numa string
@@ -64,27 +59,6 @@ const segundoNome = "Almeida"
 
 const meuNomeCompleto = nomeCompleto(primeiroNome, segundoNome)
 console.log(meuNomeCompleto)
-
-
-
-
-// Criando o botão e o evento inteiramente via JavaScript
-
-// 1. Cria o elemento <button>
-const botao = document.createElement("button");
-
-// 2. Define o texto que aparece dentro do botão
-botao.innerText = "Clique aqui";
-
-// 3. Adiciona o evento de clique usando addEventListener
-botao.addEventListener("click", function() {
-  alert("O botão foi clicado!");
-});
-
-// 4. Insere o botão na página (no corpo do documento)
-document.body.appendChild(botao);
-
-
 
 
 // Alterar conteúdo de pagina
