@@ -1,0 +1,286 @@
+/* Elementos vão respeitar a largura delimitada, Reset de todos os elementos para seus padrões */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+
+/*formularios
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+/* Cabeçalho */
+
+h1 {
+         font-size: 50px;
+         font-style: italic;
+         text-align: center;
+         background-color: #d51699;
+         color: white;
+         border-bottom: 3px solid #550330;
+         border-top: 3px solid #550330;
+}
+
+button {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 10px 20px;
+    background-color:antiquewhite;
+    color: #910670;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 18;
+    transition: 0.5s;
+    font-weight: bold;
+    border-top: 3px solid #520244;
+    align-items: center;
+}
+
+section {
+    text-align: center;
+    padding: 30px;
+    color:#520244;
+    font-family: helvetica;
+    h1 {
+         font-size: 40px;
+         font-style: italic;
+    }
+}
+
+img {
+  width: 200px; /* Define a largura da imagem */
+  height: auto; /* Mantém a proporção original para evitar distorções */
+}
+
+header {
+    background-color: #d51699;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #550330;
+    border-top: 3px solid #550330;
+    font-style: italic;
+}
+
+/* Espaçamento de linhas e letras */
+.espacamento-texto {
+    width: 150px;
+    line-height: 40px;
+}
+
+
+/* Grid de Produtos */
+.container {
+    background-color: #eee;
+    min-height: 60vs;
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+/* Centralizando imagens na tela*/
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Atributos imagens */
+#img-1 {
+    background-image: url(../img/img-1.jpg);
+}
+
+#img-2 {
+    background-image: url(../img/img-2.jpg);
+}
+
+#img-3 {
+    background-image: url(../img/img-3.jpg);
+}
+
+#img-4 {
+    background-image: url(../img/img-4.jpg);
+}
+
+#img-5 {
+    background-image: url(../img/img-5.jpg);
+}
+
+#img-6 {
+    background-image: url(../img/img-6.jpg);
+}
+
+/* Estilizar o titulo dos produtos */
+h3 {
+    margin-bottom: 10px;
+    color: #d51699;
+    font-size: 24px;
+    border-left: 5px solid #550330;
+    padding-left: 15px;
+
+}
+
+/* Estilizar parágrafos dentro do card */
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Confecção do BOTÃO */
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #d51699;
+    color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+
+/* Confecção do BOTÃO com evento de clique */
+.btn-link {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  background-color: #b32581;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  transition: 0.5s;
+  font-weight: bold;
+  border-top: 3px solid #520244;
+}
+
+/* Confecção do BOTÃO ALTERAR */
+.btn-link {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  background-color: #b32581;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  transition: 0.5s;
+  font-weight: bold;
+  border-top: 3px solid #520244;
+}
+
+.btn:hover {
+    background-color: #d51699;
+}
+
+
+
+/*Footer*/
+footer {
+    background-color: #d51699;
+    color: white;
+    border-top: 3px solid #520244;
+    border-top: 3px solid #550330;
+    text-align: center;
+    padding: 10px;
+}
